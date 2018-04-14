@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructureapp.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/standard_padding"
+        tools:context="com.example.android.musicalstructureapp.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/standard_padding">
+
+            <ImageView
+                android:layout_width="@dimen/music_height"
+                android:layout_height="@dimen/music_height"
+                android:src="@drawable/genre_icon" />
+
+            <Button
+                android:id="@+id/pop"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_gravity="start"
+                android:background="@color/background"
+                android:padding="@dimen/standard_padding"
+                android:text="@string/pop"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/song_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/standard_padding">
+
+            <ImageView
+                android:layout_width="@dimen/music_height"
+                android:layout_height="@dimen/music_height"
+                android:src="@drawable/genre_icon" />
+
+            <Button
+                android:id="@+id/rock"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_gravity="start"
+                android:background="@color/background"
+                android:padding="@dimen/standard_padding"
+                android:text="@string/rock"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/song_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/standard_padding">
+
+            <ImageView
+                android:layout_width="@dimen/music_height"
+                android:layout_height="@dimen/music_height"
+                android:src="@drawable/genre_icon" />
+
+            <Button
+                android:id="@+id/jazz"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_gravity="start"
+                android:background="@color/background"
+                android:padding="@dimen/standard_padding"
+                android:text="@string/jazz"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/song_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/standard_padding">
+
+            <ImageView
+                android:layout_width="@dimen/music_height"
+                android:layout_height="@dimen/music_height"
+                android:src="@drawable/genre_icon" />
+
+            <Button
+                android:id="@+id/classical"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_gravity="start"
+                android:background="@color/background"
+                android:padding="@dimen/standard_padding"
+                android:text="@string/electronic"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/song_size" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

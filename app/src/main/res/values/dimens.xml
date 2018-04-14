@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="standard_padding">16dp</dimen>
+    <dimen name="button_height">64dp</dimen>
+    <dimen name="music_height">64dp</dimen>
+    <dimen name="song_size">18sp</dimen>
+    <dimen name="artist_and_album_size">14sp</dimen>
+    <dimen name="big_music">256dp</dimen>
+    <dimen name="command_button_size">48dp</dimen>
+    <dimen name="play_pause_button_size">56dp</dimen>
+</resources>

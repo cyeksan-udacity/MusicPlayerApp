@@ -1,0 +1,224 @@
+<resources>
+    <string name="app_name">Categories</string>
+    <string name="pop">Pop</string>
+    <string name="rock">Rock &amp; Alternatıve</string>
+    <string name="jazz">Jazz</string>
+    <string name="electronic">Electronıc &amp; Dance</string>
+
+    <string-array name="rock_singer_array">
+        <item>A Perfect Circle</item>>
+        <item>Anathema</item>
+        <item>Eagles Of Death Metal</item>
+        <item>Elvis Presley</item>
+        <item>Godsmack</item>
+        <item>Guns N\' Roses</item>
+        <item>Guns N\' Roses</item>
+        <item>Metallica</item>
+        <item>Metallica</item>
+        <item>Muse</item>
+        <item>Opeth</item>
+        <item>Pink Floyd</item>
+        <item>Rammstein</item>
+        <item>Rammstein</item>
+        <item>Rage Against The Machine</item>
+        <item>Tool</item>
+        <item>Tool</item>
+    </string-array>
+
+    <string-array name="rock_song_array">
+        <item>The Noose</item>
+        <item>Lost Control</item>
+        <item>Already Died</item>
+        <item>Can\'t Help Falling In Love</item>
+        <item>Awake</item>
+        <item>November Rain</item>
+        <item>This I Love</item>
+        <item>Master of Puppets</item>
+        <item>Nothing Else Matters</item>
+        <item>Unintended</item>
+        <item>Harvest</item>
+        <item>Another Brick In The Wall</item>
+        <item>Killing In The Name</item>
+        <item>Keine Lust</item>
+        <item>Mein Teil</item>
+        <item>Forty Six &amp; Two</item>
+        <item>Sober</item>
+    </string-array>
+
+
+    <string-array name="rock_album_array">
+        <item>Thirteenth Step</item>
+        <item>Alternative 4</item>
+        <item>Peace, Love, Death Metal</item>
+        <item>Can\'t Help Falling In Love</item>
+        <item>Awake</item>
+        <item>Use Your Ilusion I</item>
+        <item>Chinese Democracy</item>
+        <item>Master of Puppets</item>
+        <item>Metallica (The Black Album)</item>
+        <item>Showbiz</item>
+        <item>Blackwater Park</item>
+        <item>The Wall</item>
+        <item>Killing In The Name</item>
+        <item>Reise, Reise</item>
+        <item>Reise, Reise</item>
+        <item>Ænima</item>
+        <item>Undertow</item>
+    </string-array>
+
+    <string-array name="pop_singer_array">
+        <item>Bebe Rexha</item>>
+        <item>Bruno Mars</item>
+        <item>Camila Cabello</item>
+        <item>Camila Cabello</item>
+        <item>Charlie Puth</item>
+        <item>Dua Lipa</item>
+        <item>Ed Sheeran</item>
+        <item>Ed Sheeran</item>
+        <item>Ed Sheeran</item>
+        <item>Maroon 5</item>
+        <item>Pharrel Williams</item>
+        <item>Rihanna</item>
+        <item>Selena Gomez</item>
+        <item>Taylor Swift</item>
+    </string-array>
+
+    <string-array name="pop_song_array">
+        <item>Meant To Be</item>>
+        <item>Finesse</item>
+        <item>Havana</item>
+        <item>Never Be The Same</item>
+        <item>Attention</item>
+        <item>New Rules</item>
+        <item>Perfect</item>
+        <item>Photograph</item>
+        <item>Shape Of You</item>
+        <item>Wait</item>
+        <item>Happy</item>
+        <item>Diamonds</item>
+        <item>Marshmellow</item>
+        <item>Delicate</item>
+    </string-array>
+
+    <string-array name="pop_album_array">
+        <item>All Your Fault: Pt. 2</item>
+        <item>24K Magic</item>
+        <item>Camila</item>
+        <item>Camila</item>
+        <item>Voicenotes</item>
+        <item>Dua Lipa</item>
+        <item>÷</item>
+        <item>x</item>
+        <item>÷</item>
+        <item>Red Pill Blues</item>
+        <item>Girl</item>
+        <item>Unapologetic</item>
+        <item>Wolves</item>
+        <item>Reputation</item>
+    </string-array>
+
+    <string-array name="jazz_singer_array">
+        <item>Chet Baker</item>>
+        <item>Frank Sinatra</item>
+        <item>John Coltrane</item>
+        <item>Louis Armstrong</item>
+        <item>Louis Armstrong</item>
+        <item>Louis Armstrong</item>
+        <item>Louis Armstrong</item>
+        <item>Nina Simone</item>
+        <item>Nina Simone</item>
+        <item>Sonny Rollins</item>
+        <item>Wayne Shorter</item>
+        <item>Wayne Shorter</item>
+    </string-array>
+
+    <string-array name="jazz_song_array">
+        <item>My Funny Valentine</item>>
+        <item>I Love You Baby</item>
+        <item>Blue Train</item>
+        <item>A Kiss To Build A Dream On</item>
+        <item>La Vie En Rose</item>
+        <item>What A Wonderful World</item>
+        <item>When The Saints Go Marchining In</item>
+        <item>Feeling Good</item>
+        <item>The Look Of Love</item>
+        <item>Airegin</item>
+        <item>Footprints</item>
+        <item>Infant Eyes</item>
+    </string-array>
+
+    <string-array name="jazz_album_array">
+        <item>My Funny Valentine</item>
+        <item>Colombia</item>
+        <item>Blue Train</item>
+        <item>A Kiss To Build A Dream On</item>
+        <item>La Vie En Rose</item>
+        <item>What a Wonderful World</item>
+        <item>When The Saints Go Marching In</item>
+        <item>I Put A Spell On You</item>
+        <item>Silk &amp; Soul</item>
+        <item>Cookin\' with the Miles Davis Quintet</item>
+        <item>Adam\'s Apple</item>
+        <item>Speak No Evil</item>
+    </string-array>
+
+    <string-array name="electronic_singer_array">
+        <item>Armin van Buuren</item>>
+        <item>Artbat</item>
+        <item>Betoko</item>
+        <item>Charlotte Gainsbourg</item>
+        <item>Djedjotronic</item>
+        <item>Foals</item>
+        <item>Kavinsky</item>
+        <item>Knife Party</item>
+        <item>Massive Attack</item>
+        <item>Oscar &amp; The Wolf</item>
+        <item>Raving George</item>
+        <item>Raving George</item>
+        <item>Röyksopp</item>
+        <item>Sofi Tukker</item>
+        <item>Sofi Tukker</item>
+        <item>Unders</item>
+        <item>Waxdolls</item>
+    </string-array>
+
+    <string-array name="electronic_song_array">
+        <item>J\'ai Envie De Toi</item>>
+        <item>Tabu (Original Mix)</item>
+        <item>Raining Again (Original Mix)</item>
+        <item>Paradisco</item>
+        <item>Dirty &amp; Hard (Keatch Remix)</item>
+        <item>Late Night (Solomun Remix)</item>
+        <item>Nightcall</item>
+        <item>Internet Friends (Original Mix)</item>
+        <item>Butterfly Caught</item>
+        <item>Joaquim</item>
+        <item>Slaves</item>
+        <item>You\'re Mine</item>
+        <item>What Else Is There? (Trentemøller Remix)</item>
+        <item>Drinkee</item>
+        <item>Hey Lion</item>
+        <item>Syria</item>
+        <item>Chips</item>
+    </string-array>
+
+    <string-array name="electronic_album_array">
+        <item>Grandmix 2012</item>
+        <item>Tabu</item>
+        <item>Raining Again</item>
+        <item>Stage Whisper</item>
+        <item>Dirty &amp; Hard EP</item>
+        <item>Holy Fire</item>
+        <item>Drive (Original Motion Picture Soundtrack)</item>
+        <item>100% No Modern Talking</item>
+        <item>100th Window</item>
+        <item>Entity</item>
+        <item>Slaves</item>
+        <item>You\'re Mine</item>
+        <item>The Understanding</item>
+        <item>Runaways</item>
+        <item>Soft Animals</item>
+        <item>Syria</item>
+        <item>High Speed Killer Ride</item>
+    </string-array>
+</resources>

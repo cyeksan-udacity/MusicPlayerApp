@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructureapp.MediaPlayerScreen">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/standard_padding"
+        tools:context="com.example.android.musicalstructureapp.MediaPlayerScreen">
+
+        <ImageView
+            android:layout_width="@dimen/big_music"
+            android:layout_height="@dimen/big_music"
+            android:src="@drawable/big_music_round" />
+
+        <TextView
+            android:id="@+id/song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/standard_padding"
+            android:textColor="@color/light_color"
+            android:textSize="@dimen/song_size" />
+
+        <TextView
+            android:id="@+id/singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/artist_and_album_size" />
+
+        <TextView
+            android:id="@+id/album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/artist_and_album_size" />
+
+        <SeekBar
+            android:id="@+id/song_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            tools:context="com.example.android.musicalstructureapp.MediaPlayerScreen">
+
+            <ImageView
+                android:id="@+id/previous_icon"
+                android:layout_width="@dimen/command_button_size"
+                android:layout_height="@dimen/command_button_size"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/standard_padding"
+                android:src="@drawable/previous_button" />
+
+            <ImageView
+                android:id="@+id/play_pause"
+                android:layout_width="@dimen/play_pause_button_size"
+                android:layout_height="@dimen/play_pause_button_size"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/standard_padding"
+                android:src="@drawable/pause_icon" />
+
+            <ImageView
+                android:id="@+id/next_icon"
+                android:layout_width="@dimen/command_button_size"
+                android:layout_height="@dimen/command_button_size"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/standard_padding"
+                android:src="@drawable/next_button" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
